@@ -27,6 +27,7 @@ WHERE p.payment_id BETWEEN 301 AND 304
 ORDER BY p.payment_id;
 
 #####
+
 CALL seed_classes();
 CALL seed_class_registrations();
 CALL seed_employees();
