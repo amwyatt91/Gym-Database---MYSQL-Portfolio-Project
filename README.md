@@ -19,11 +19,11 @@ Open the scripts in MySQL Workbench and run them in this order:
 1. [`01_create_schema.sql`](/01_create_schema.sql) creates `gym_db_sample`
    and its tables. Run this on a MySQL instance where the database name
    is available.
-2. [`02_seed_locations.sql`](sql/02_seed_locations.sql) creates the
+2. [`02_seed_locations.sql`](/02_seed_locations.sql) creates the
    location seed procedure.
-3. [`03_seed_gym_data.sql`](sql/03_seed_gym_data.sql) creates the remaining
+3. [`03_seed_gym_data.sql`](/03_seed_gym_data.sql) creates the remaining
    seed procedures.
-4. [`04_load_sample_data.sql`](sql/04_load_sample_data.sql) calls all seven
+4. [`04_load_sample_data.sql`](/04_load_sample_data.sql) calls all seven
    procedures in dependency order.
 
 Check the location data:
