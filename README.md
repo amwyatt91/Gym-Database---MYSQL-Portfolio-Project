@@ -16,7 +16,7 @@ procedures, and SQL reporting.
 
 Open the scripts in MySQL Workbench and run them in this order:
 
-1. [`01_create_schema.sql`](SQL/01_create_schema.sql) creates `gym_db_sample`
+1. [`01_create_schema.sql`](/01_create_schema.sql) creates `gym_db_sample`
    and its tables. Run this on a MySQL instance where the database name
    is available.
 2. [`02_seed_locations.sql`](sql/02_seed_locations.sql) creates the
