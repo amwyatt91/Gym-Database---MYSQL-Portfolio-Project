@@ -54,7 +54,7 @@ West Loop Fitness, and Lakeshore Fitness.
 - Add reporting queries for membership counts by location, collected revenue,
   and class attendance.
 
-  ## Database administration exercises
+ ## Database administration exercises
 
 - [Payment integrity audit and migration](/05_payment_integrity_demo.sql)
   demonstrates how a composite foreign key prevents payments from referencing
