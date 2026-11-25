@@ -56,7 +56,7 @@ West Loop Fitness, and Lakeshore Fitness.
 
   ## Database administration exercises
 
-- [Payment integrity audit and migration](sql/06_payment_integrity_demo.sql)
+- [Payment integrity audit and migration](/06_payment_integrity_demo.sql)
   demonstrates how a composite foreign key prevents payments from referencing
   another member's membership. Run the sections in order on a fresh, seeded
   test database. The final insert is expected to fail with MySQL error 1452.
